@@ -7,64 +7,49 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/linear"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/btn_undo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-
-                android:text="Undo" />
-
-            <ImageButton
-                android:id="@+id/btn_save"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-
-                android:text="Save" />
-
-            <ImageButton
-                android:id="@+id/btn_color"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-
-                android:text="Color" />
-
-            <ImageButton
-                android:id="@+id/btn_stroke"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-
-                android:text="Stroke" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <com.google.android.material.slider.RangeSlider
-                android:id="@+id/rangebar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:visibility="gone" />
-
-        </LinearLayout>
-
+        android:background="@drawable/toolbar_background"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/blackColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/black_background"/>
+        <ImageButton
+            android:id="@+id/whiteColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/white_background"/>
+        <ImageButton
+            android:id="@+id/redColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/red_background"/>
+        <ImageButton
+            android:id="@+id/greenColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/green_background"/>
+        <ImageButton
+            android:id="@+id/blueColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/blue_background"/>
     </LinearLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        />
 
 
 </RelativeLayout>
