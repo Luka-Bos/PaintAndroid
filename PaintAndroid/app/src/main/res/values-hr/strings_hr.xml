@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> Paintdroid </string>
+    <string name="Novi"> Novi Crtež </string>
+    <string name="Load"> Učitaj Crtež</string>
+    <string name="tagline"> Kao MSPaint sam gore </string>
+    <string name="Promjena"> Jezik </string>
+    <string name="nahrv">Hrvatski</string>
+    <string name="naeng">Engleski</string>
+    <string name="undo">poništi</string>
+    <string name="save">spremi</string>
+    <string name="stroke">veličina</string>
+</resources>

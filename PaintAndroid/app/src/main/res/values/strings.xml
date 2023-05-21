@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">PaintAndroid</string>
+    <string name="app_name"> Paintdroid </string>
+    <string name="Novi"> New Drawing </string>
+    <string name="Load"> Load Drawing</string>
+    <string name="tagline"> Like MSPaint just worse </string>
+    <string name="Promjena"> Language </string>
+    <string name="nahrv">Croatian</string>
+    <string name="naeng">English</string>
+    <string name="undo">undo</string>
+    <string name="save">save</string>
+    <string name="stroke">size</string>
 </resources>

@@ -1,6 +1,7 @@
 package com.example.paintandroid
 
 import android.content.Context
+import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
@@ -12,7 +13,10 @@ import android.view.ViewGroup
 import com.example.paintandroid.Paint.Companion.paintBrush
 import com.example.paintandroid.Paint.Companion.path
 
+
 class PaintView : View{
+
+
 
     var params : ViewGroup.LayoutParams? = null
 
